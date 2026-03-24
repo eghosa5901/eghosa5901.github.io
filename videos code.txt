@@ -1,0 +1,55 @@
+<!-- Media carousel: each slide contains a video release -->
+        <div class="slideshow-container">
+            <!-- Slide 1 -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                <video controls preload="metadata">
+                    <source src="../assets/video/hallomi.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="text">Hallomi</div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <video controls preload="metadata">
+                    <source src="../assets/video/newYearVid.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="text">New Year</div>
+            </div>
+
+
+function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+
+            // Stop all videos when changing slides
+            let videos = document.querySelectorAll("video");
+            videos.forEach((video) => {
+                video.pause();
+                video.currentTime = 0;
+            });
+
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            if (dots[slideIndex - 1]) {
+                dots[slideIndex - 1].className += " active";
+            }
+        }

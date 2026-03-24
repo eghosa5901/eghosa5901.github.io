@@ -1,0 +1,60 @@
+Things needed for site.
+
+
+Design the button how you like. After you have styled it the will be TWO parts of code make sure the are seperate but under the same name so I know whats what. 
+
+Our Corner paypal button
+
+
+
+
+
+
+
+New year paypal button
+
+
+
+
+
+
+
+Mpakatuka Tene paypal button
+
+
+
+
+
+
+
+Lady of song paypal button
+
+
+
+
+
+Almost late paypal button
+
+
+
+
+
+Fundraiser button
+
+
+
+All media photos/videos/mp3s for the site in ONE folder.
+
+Choose/buy a domain which is the "address" of the site on the internet.  
+
+download visual studio code IDE this will allow you to view, modify and make changes to the code.
+
+Create a github account which will allow us to host the site (Write down the password / user name and send it to me so i can pout the files in there). 
+What hosting does is basically takes and holds our files in a server and when the domain is called by a user on their phone or tablet the host will provide it to the so they can interact with the site. 
+
+Then we should be all good :)
+
+You should probably do a little research into hosting and domains just to wrap your head around it. 
+
+
+
