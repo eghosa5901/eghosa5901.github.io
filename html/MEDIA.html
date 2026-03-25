@@ -7,6 +7,7 @@
     <meta name="description" content="Interact with my media" />
     <link rel="stylesheet" href="../css/styles.css" />
     <style>
+
         body {
             margin: 0;
             min-height: 100vh;
@@ -31,14 +32,11 @@
             display: flex;
             flex-direction: column;
             align-items: center; /* horizontal centering */
-            justify-content: center; /* vertical centering */
+            justify-content: flex-start; /* vertical centering */
             padding: 3rem 2rem;
         }
 
-        .slideshow-container {
-            width: min(92vw, 900px);
-            max-width: 900px;
-        }
+        
 
         .mySlides {
             width: 100%;
@@ -46,14 +44,16 @@
 
         .media-video {
             width: 100%;
-            margin: 0 auto;
+            display: flex;
+            justify-content: center;
         }
 
         .media-video iframe {
             width: 100%;
+            max-width: 900px;
             aspect-ratio: 16 / 9;
-            border: 0;
             display: block;
+            margin: 0 auto;
         }
 
         .media-image img {
@@ -81,7 +81,6 @@
         <div class="slideshow-container">
             <!-- Slide 1 -->
             <div class="mySlides fade">
-                <div class="numbertext">1 / 2</div>
                 <div class="media-video">
                     <iframe
                         src="https://www.youtube.com/embed/TBTlVrhQD-0?enablejsapi=1&rel=0"
@@ -90,12 +89,10 @@
                         allowfullscreen>
                     </iframe>
                 </div>
-                <div class="text">Hallomi</div>
             </div>
 
             <!-- Slide 2 -->
             <div class="mySlides fade">
-                <div class="numbertext">2 / 2</div>
                 <div class="media-video">
                     <iframe
                         src="https://www.youtube.com/embed/zlRJsqG19vE?enablejsapi=1&rel=0"
@@ -104,7 +101,6 @@
                         allowfullscreen>
                     </iframe>
                 </div>
-                <div class="text">New Year</div>
             </div>
 
             <!-- Previous/next controls for browsing releases -->
@@ -184,3 +180,4 @@
 </body>
 
 </html>
+
