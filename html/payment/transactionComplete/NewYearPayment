@@ -19,8 +19,8 @@
         </section>
 
         <section class="release payment-release">
-            <a href="song.mp3" download>
-                <img class="payment-art" src="Newest_Release.jpeg" alt="Download your track">
+            <a href="../../../assets/audio/newYears.wav" download>
+                <img class="payment-art" src="../../../assets/images/newYear.jpeg" alt="Download your track">
             </a>
             <p>Click the artwork to download your track.</p>
         </section>
