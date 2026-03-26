@@ -1,13 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
     <title>New Year - Purchase</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/styles.css">
-    <script
-        src="https://www.paypal.com/sdk/js?client-id=BAAWdIduSeTeAYRpQyxNKGMd3RmqI_iWRRfzqmgb7LMmw6vi-F6MfewqmBol7MlQirEqIpAVtgQPTWBfgE&components=hosted-buttons&disable-funding=venmo&currency=GBP">
+
+    <script 
+        src="https://www.paypal.com/sdk/js?client-id=BAAjE_XXKkGUPpmF30CzAgUatoB47V4zrIgXC9cH-_yva9jIsb8CEW_R9Wc3w3XAJJecQL9P8LXliVLhHI&components=hosted-buttons&disable-funding=venmo&currency=GBP">
     </script>
+
 </head>
 <body class="payment-page">
 
@@ -17,7 +20,7 @@
 
     <main class="container payment-layout">
         <section class="release payment-release">
-            <img class="payment-art" src="../../assets/images/newYear.jpeg" alt="New Year artwork">
+            <img class="payment-art" src="../../assets/images/sunlight.jpg" alt="Sunlight artwork">
         </section>
 
         <p class="payment-description">
@@ -27,7 +30,7 @@
         <section class="credits">
             <h2>Song Credits</h2>
             <div class="track">
-                <h3>New Year</h3>
+                <h3>Sunlight Reminiscing</h3>
                 <ul>
                                 <li><strong>Art Work: </strong>Wendy</li>
                                 <li><strong>Composer: </strong>Michael Kadenge</li>
@@ -40,7 +43,7 @@
         </section>
         
         <p><strong>Format:</strong> Digital download</p>
-        <div id="paypal-container-HMQ8BLA5XRHH4" class="paypal-hosted-button"></div>
+        <div id="paypal-container-TDTFDM5V5QVLS" class="paypal-hosted-button"></div>
     </main>
 
     <footer>
@@ -49,8 +52,8 @@
 
     <script>
         paypal.HostedButtons({
-            hostedButtonId: "HMQ8BLA5XRHH4"
-        }).render("#paypal-container-HMQ8BLA5XRHH4");
+        hostedButtonId: "TDTFDM5V5QVLS",
+        }).render("#paypal-container-TDTFDM5V5QVLS")
     </script>
 
 </body>
