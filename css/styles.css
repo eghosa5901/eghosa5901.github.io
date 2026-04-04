@@ -362,9 +362,10 @@ button {
 }
 
 .payment-description {
-  max-width: 700px;
-  line-height: 1.6;
-  margin-bottom: -30px;
+    max-width: 600px;   /* controls line length */
+    margin: 0 auto;     /* centers the block */
+    text-align: center; /* centers the text */
+    line-height: 1.6;   /* improves readability */
 }
 
 .paypal-hosted-button {
