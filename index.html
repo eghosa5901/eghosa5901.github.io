@@ -36,10 +36,13 @@
         /* Footer */
         .footer {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-between; /* pushes left & right apart */
             align-items: center;
-            padding: 1rem 1.5rem;
-            font-size: 1.2rem;
+            position: fixed; /* sticks it to bottom */
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 20px;
         }
 
         .footer a {
@@ -77,6 +80,10 @@
         <a href="https://www.instagram.com/mmkadenge/" target="_blank" rel="noopener">
             INSTAGRAM
         </a>
+    </footer>
+
+    <footer class ="footer" style="justify-content: right;">
+        <a href="html/INFO.html">INFORMATION</a>
     </footer>
 </body>
 </html>
