@@ -387,3 +387,13 @@ button {
   border-radius: 8px;
   background: #f3f3f3;
 }
+
+.info-tab {
+    position: absolute;
+    right: -30px;
+    top: 47%;
+    transform: translateY(-50%) rotate(90deg);
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 2px;
+}
