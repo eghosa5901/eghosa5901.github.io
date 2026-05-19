@@ -400,5 +400,5 @@ button {
 
 
 * {
-  cursor: url("../assets/images/mouseLogo.png")16 16, auto;
+  cursor: url("../assets/images/mouseLogo.png")16 16, auto !important;
 }
