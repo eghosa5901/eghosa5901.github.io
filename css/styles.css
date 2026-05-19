@@ -398,6 +398,7 @@ button {
     letter-spacing: 2px;
 }
 
-body {
-  cursor: url("mouseLogo.png"), auto;
+
+* {
+  cursor: url("../assets/images/mouseLogo.png")16 16, auto;
 }
