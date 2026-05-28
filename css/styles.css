@@ -389,13 +389,14 @@ button {
 }
 
 .info-tab {
+    font-size: 15px;
     position: absolute;
     right: -30px;
     top: 47%;
     transform: translateY(-50%) rotate(90deg);
     text-decoration: none;
     color: inherit;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 
