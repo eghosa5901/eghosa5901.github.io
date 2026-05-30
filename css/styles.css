@@ -406,17 +406,15 @@ button {
   cursor: url("../assets/images/mouseLogo.png")16 16, auto !important;
 }
 
-.back-books {
+.back-button {
     position: fixed;
-    top: 20px;
-    left: 20px;
-    display: flex;
-    gap: 10px;
+    top: 10px;
+    left: 10px;
     z-index: 1000;
 }
 
-.back-books img {
-    width: 60px;
+.back-button img {
+    width: 200px;   /* Try 30px–50px */
     height: auto;
     cursor: pointer;
 }
