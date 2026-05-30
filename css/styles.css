@@ -362,10 +362,12 @@ button {
 }
 
 .payment-description {
-    max-width: 600px;   /* controls line length */
-    margin: 0 auto;     /* centers the block */
-    text-align: center; /* centers the text */
-    line-height: 1.6;   /* improves readability */
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+
+    min-height: 105px; /* forces taller section */
 }
 
 .paypal-hosted-button {
@@ -389,7 +391,7 @@ button {
 }
 
 .info-tab {
-    font-size: 15px;
+    font-size: 12px;
     position: absolute;
     right: -30px;
     top: 47%;
@@ -402,5 +404,20 @@ button {
 
 * {
   cursor: url("../assets/images/mouseLogo.png")16 16, auto !important;
+}
+
+.back-books {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.back-books img {
+    width: 60px;
+    height: auto;
+    cursor: pointer;
 }
 
