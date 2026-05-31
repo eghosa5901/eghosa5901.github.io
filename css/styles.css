@@ -367,7 +367,7 @@ button {
     text-align: center;
     line-height: 1.6;
 
-    min-height: 105px; /* forces taller section */
+    min-height: 100px; /* forces taller section */
 }
 
 .paypal-hosted-button {
