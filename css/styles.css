@@ -420,3 +420,15 @@ button {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .back-button img {
+        width: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .back-button {
+        top: 15px;
+        left: 10px;
+    }
+}
