@@ -18,13 +18,13 @@ body {
    Header
 ========================= */
 .site-header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
-.site-header h1 {
-    margin: 0;
-    letter-spacing: 0.1em;
-}
+
 
 
 /* =========================
@@ -52,6 +52,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     margin-bottom: -55px; /* reduce space under slides */
+    margin-top: -100px;
 }
 
 .mySlides {
