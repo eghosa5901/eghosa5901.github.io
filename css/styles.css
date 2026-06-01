@@ -409,8 +409,8 @@ button {
 
 .back-button {
     position: fixed;
-    top: 40px;   /* move it DOWN (increase this number) */
-    left: 20px;  /* move it LEFT (increase = more right, decrease = more left) */
+    top: -10px;   /* move it DOWN (increase this number) */
+    left: -50px;  /* move it LEFT (increase = more right, decrease = more left) */
     z-index: 1000;
 }
 
@@ -424,9 +424,7 @@ button {
     .back-button img {
         width: 70px;
     }
-}
 
-@media (max-width: 768px) {
     .back-button {
         top: 15px;
         left: 10px;
