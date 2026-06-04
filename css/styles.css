@@ -422,7 +422,7 @@ button {
 
 @media (max-width: 768px) {
     .back-button img {
-        width: 70px;
+        width: 200px;
     }
 
     .back-button {
