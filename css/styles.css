@@ -422,11 +422,11 @@ button {
 
 @media (max-width: 768px) {
     .back-button img {
-        width: 190px;
+        width: 170px;
     }
 
     .back-button {
         top: -20px;
-        left: 20px;
+        left: -50px;
     }
 }
