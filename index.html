@@ -34,30 +34,48 @@
         }
 
         /* Footer */
-        .footer {
-            display: flex;
-            justify-content: space-between; /* pushes left & right apart */
-            align-items: center;
-            position: fixed; /* sticks it to bottom */
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            padding: 10px 20px;
-        }
+       .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+}
 
-        .footer a {
-            text-decoration: none;
-            color: inherit;
-        }
+.footer a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding: 10px 25px;
+    border: 1px solid currentColor;
+    transition: all 0.3s ease;
+}
 
-        .top-right-image {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 60px;  /* adjust size */
-            height: auto;
-            margin: 10px;
-        }
+.footer a:hover {
+    letter-spacing: 5px;
+    background-color: currentColor;
+}
+
+        
+        .links {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    padding: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+}
+        
     </style>
 </head>
 <body>
@@ -78,7 +96,7 @@
     </main>
     <!-- Quick links to audience form and fundraiser page -->
     <a href="html/ABOUT.html" class="audience-form-link">
-    <img src="assets/images/indexLogo.png" alt="Top Right Image" class="top-right-image">
+    
     </a>
 
     <div class="links">
@@ -87,14 +105,12 @@
 
 
 
-    <a href="html/INFO.html" class="info-tab">INFORMATION</a>
+    
 
     <!-- Social link so visitors can continue engagement outside the website -->
     <footer class="footer">
 
-    <a href="https://www.instagram.com/mikes__house/" target="_blank" rel="noopener">
-        INSTAGRAM
-    </a>
+   
 
     <a href="html/FUNDRAISER.html">FUNDRAISER</a>
 
